@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="AcNXdS" name="WaveFluteFusion" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="nPo83B" name="WaveFluteFusion">
+    <GROUP id="{571CFF16-2573-F3CE-8718-B16BD8ECBC35}" name="Source">
+      <FILE id="l2xjuh" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Cw8aKD" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="uKCpAY" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="WaveFluteFusion"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="WaveFluteFusion"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../Desktop/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
