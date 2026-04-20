@@ -176,6 +176,8 @@ MainComponent::MainComponent()
             menu.addItem(4, "panflute");
             menu.addItem(5, "flute2");
             menu.addItem(6, "guitar");
+            menu.addItem(7, "flute3");
+          
 
 
             menu.showMenuAsync(juce::PopupMenu::Options(),
@@ -227,6 +229,15 @@ MainComponent::MainComponent()
                         auto file = juce::File::getSpecialLocation(
                             juce::File::userDesktopDirectory
                         ).getChildFile("guitar.wav");
+
+                        loadSample(file);
+                    }
+
+                    else if (result == 7)
+                    {
+                        auto file = juce::File::getSpecialLocation(
+                            juce::File::userDesktopDirectory
+                        ).getChildFile("flute3.wav");
 
                         loadSample(file);
                     }
@@ -673,3 +684,4 @@ void MainComponent::handleIncomingMidiMessage(
 
    
 }
+// UI module update
